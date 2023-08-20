@@ -1,18 +1,66 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #fff;
-    color: #ccc;
-  }
-  
-  header {
-    background-color: #222;
-    color: #fff;
-    text-align: center;
-    padding: 2em 0;
-  }
-  
-  h1 {
-    margin: 0;
-  }
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #444;
+  background-image: url(imagens/fundo.png);
+  color: #ccc;
+}
+header {
+  background-color: #762d7a;
+  color: #fff;
+  text-align: center;
+  padding: 2em 0;
+  margin-bottom: 10px;
+  text-shadow: 6px 6px 20px #aaaaaa;
+  box-shadow: 3px 3px 10px #000000;
+}
+h1 {
+  margin: 0;
+}
+.content {
+  max-width: 91%;
+  margin: 0 auto;
+  padding: 2em;
+  background-color: #333;
+  border-radius: 10px;
+  box-shadow: 6px 6px 20px #000000;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+.image-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.discord-button {
+  display: inline-block;
+  background-color: #7289da;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 1em;
+}
+.image-box {
+  width: 30%;
+  margin-bottom: 2em;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.image-box img {
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 10px #974f4f;
+}
+
+.image-caption {
+  margin-top: 0.5em;
+  font-size: 14px;
+}
